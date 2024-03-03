@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import artflow from "../../Assets/Projects/art-flow.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
+import bnb from "../../Assets/Projects/bnb.png"
+import filrouge from "../../Assets/Projects/filrouge.png"
+import bear from "../../Assets/Projects/bear.png"
+import countrix from "../../Assets/Projects/countrix.png"
 
 function Projects() {
   return (
@@ -23,67 +23,66 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={artflow}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Art-Flow"
+              description="Artflow est un projet réalisé en groupe lors la formation CDA chez PrepAvenir. Cette application est une galerie d'images qui permet de voir, partager, télécharger et commenter des images."
+              ghLink="https://github.com/JohanYindou/ArtFlow"
+              //demoLink="#"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={portfolio}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Portfolio"
+              description="Ce portfolio a été réalisée pour une élève étudiante en école de commerce."
+              ghLink="https://github.com/michelbdg/portfolio_marjory"
+              //demoLink="#"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={bnb}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="BnB"
+              description="Ce projet est une plateforme de réservation de chambres en BnB."
+              ghLink="https://github.com/michelbdg/BnB"
+              //demoLink="#"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={filrouge}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Filrouge"
+              description="Cette réalisation constitue le projet central élaboré dans le cadre de l'évaluation DWWM en vue de l'obtention du titre professionnel de développeur web et web mobile. Il s'agit d'un site de commerce électronique dédié à un restaurant avec un système de commande en ligne (click and collect)."
+              ghLink="https://github.com/michelbdg/filRouge2"
+              //demoLink="#"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={countrix}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Countrix"
+              description="Ce projet a été conçu pendant une session de formation. Il s'agit d'une plateforme permettant de rechercher des informations sur différents pays, développée en utilisant la bibliothèque React et interagissant avec une API appelée Rest Countries."
+              ghLink="https://github.com/michelbdg/countrix"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bear}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Bear Note"
+              description="Ce défi de groupe implique la création d'une application de prise de notes en JavaScript sur une période de trois jours."
+              ghLink="https://github.com/michelbdg/DefiCode-JS"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>

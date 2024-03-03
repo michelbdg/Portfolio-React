@@ -8,33 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Salut à tous, Je suis <span className="purple">Bondonga Michel-Marie </span>
+            je viens de <span className="purple"> Paris, France.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+              En tant que jeune développeur passionné, j'applique ma créativité et mes compétences techniques pour concevoir des solutions web novatrices.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+              Bénéficiant d'une formation solide et animé d'une volonté constante d'apprentissage,
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+              je suis prêt à contribuer activement à des projets stimulants et à évoluer au sein d'une équipe dynamique.
+            <br />
+              En dehors du codage, j'aime aussi faire d'autres activités ! 
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Football
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Basketball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Les mangas, animation japonaise
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
