@@ -26,7 +26,7 @@ function Projects() {
               imgPath={artflow}
               isBlog={false}
               title="Art-Flow"
-              description="Artflow est un projet réalisé en groupe lors la formation CDA chez PrepAvenir. Cette application est une galerie d'images qui permet de voir, partager, télécharger et commenter des images."
+              description="Artflow est un projet réalisé en groupe lors de la formation CDA chez Prep avenir. Cette application est une galerie d'images qui permet de voir, partager, télécharger et commenter des images."
               ghLink="https://github.com/JohanYindou/ArtFlow"
               //demoLink="#"
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={filrouge}
               isBlog={false}
               title="Filrouge"
-              description="Cette réalisation constitue le projet central élaboré dans le cadre de l'évaluation DWWM en vue de l'obtention du titre professionnel de développeur web et web mobile. Il s'agit d'un site de commerce électronique dédié à un restaurant avec un système de commande en ligne (click and collect)."
+              description="Cette réalisation constitue le projet central élaboré dans le cadre de l'évaluation DWWM en vue de l'obtention du titre professionnel de développeur web et web mobile. Il s'agit d'un site e-commerce électronique dédié à un restaurant avec un système de commande en ligne (click and collect)."
               ghLink="https://github.com/michelbdg/filRouge2"
               //demoLink="#"
             />
@@ -70,7 +70,7 @@ function Projects() {
               imgPath={countrix}
               isBlog={false}
               title="Countrix"
-              description="Ce projet a été conçu pendant une session de formation. Il s'agit d'une plateforme permettant de rechercher des informations sur différents pays, développée en utilisant la bibliothèque React et interagissant avec une API appelée Rest Countries."
+              description="Ce projet a été conçu pendant une session de formation. Il s'agit d'une plateforme permettant de rechercher des informations sur différents pays, développé en utilisant la bibliothèque React et interagissant avec une API appelée Rest Countries."
               ghLink="https://github.com/michelbdg/countrix"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />

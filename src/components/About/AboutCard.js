@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
               En tant que jeune développeur passionné, j'applique ma créativité et mes compétences techniques pour concevoir des solutions web novatrices.
             <br />
-              Bénéficiant d'une formation solide et animé d'une volonté constante d'apprentissage,
+              Bénéficiant d'une formation solide et animée d'une volonté constante d'apprentissage,
             <br />
             <br />
               je suis prêt à contribuer activement à des projets stimulants et à évoluer au sein d'une équipe dynamique.
