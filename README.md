@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://michel-bondonga.vercel.app" target="_blank">BONONDGA Michel-Marie</a>
+  <a href="https://michel-bondonga.vercel.app" target="_blank">BONDONGA Michel-Marie</a>
 </h2>
 <br/>
 ## TL;DR
